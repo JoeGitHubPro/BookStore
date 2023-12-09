@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Book Store Cart</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Book Store Cart</h1>
+        
+        <div class="cart">
+            <div class="book">
+                <img src="images/single-image.jpg" alt="Book 1">
+                <div class="book-info">
+                    <h2>Happy</h2>
+                    <p>Author: Author Name 1</p>
+                    <p>Price: $19.99</p>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="images/tab-item6.jpg" alt="Book 2">
+                <div class="book-info">
+                    <h2>Get travel</h2>
+                    <p>Author: Author Name 2</p>
+                    <p>Price: $24.99</p>
+                </div>
+            </div>
+            
+            <!-- Add more books as needed -->
+
+            <div class="total">
+                <p>Total: $44.98</p>
+                <button>Checkout</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.cart {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.book {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.book img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.book-info {
+    flex-grow: 1;
+}
+
+.total {
+    text-align: right;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+</style>
